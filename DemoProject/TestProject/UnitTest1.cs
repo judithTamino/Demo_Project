@@ -32,6 +32,14 @@ namespace TestProject
             Assert.That(ret, Is.EqualTo(12));
         }
 
+        public void Test3()
+        {
+
+            int ret = calc.Check(5, 5);
+
+            Assert.That(ret, Is.EqualTo(10));
+        }
+
     }
 
 
