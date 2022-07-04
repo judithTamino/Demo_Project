@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +13,7 @@ namespace DemoProject
             Calc calc = new Calc();
             string print = calc.Check(15, 15).ToString();
             Console.WriteLine(print);
-            Console.WriteLine("hhhhhh");
+
             Console.Read();
         }
     }
