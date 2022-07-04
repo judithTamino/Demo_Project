@@ -1,4 +1,5 @@
-﻿
+﻿using System;
+
 namespace DemoProject
 {
     public class Calc
