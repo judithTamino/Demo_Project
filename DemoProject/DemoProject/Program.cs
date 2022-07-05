@@ -7,6 +7,7 @@ namespace DemoProject
         {
             Calc calc = new Calc();
             string print = calc.Check(15, 15).ToString();
+            Console.WriteLine(print);
       
             Console.Read();
         }
