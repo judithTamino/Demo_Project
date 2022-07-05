@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace DemoProject
 {
     internal class Program
@@ -12,9 +7,8 @@ namespace DemoProject
         {
             Calc calc = new Calc();
             string print = calc.Check(15, 15).ToString();
-            string print2 = calc.Check(10, 10).ToString();
-
-            Console.WriteLine(print + print2);
+      
+            Console.WriteLine(print);
             Console.Read();
         }
     }
