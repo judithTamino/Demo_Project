@@ -14,6 +14,7 @@ namespace DemoProject
             string print = calc.Check(15, 15).ToString();
             Console.WriteLine(print);
             Console.WriteLine("Judith Tamino");
+            Console.WriteLine("Judith");
 
             Console.Read();
         }
