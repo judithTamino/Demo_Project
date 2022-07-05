@@ -14,8 +14,6 @@ namespace DemoProject
             string print = calc.Check(15, 15).ToString();
             string print2 = calc.Check(10, 10).ToString();
 
-            Console.WriteLine("Judith");
-
             Console.WriteLine(print + print2);
             Console.Read();
         }
