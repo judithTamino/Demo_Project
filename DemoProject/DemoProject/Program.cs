@@ -10,7 +10,7 @@ namespace DemoProject
             string print2 = calc.Check(15, 5).ToString();
 
             Console.WriteLine(print);
-            Console.WriteLine(print2);
+           
       
             Console.Read();
         }
