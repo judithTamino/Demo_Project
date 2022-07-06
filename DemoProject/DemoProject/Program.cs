@@ -7,10 +7,11 @@ namespace DemoProject
         {
             Calc calc = new Calc();
             string print = calc.Check(15, 15).ToString();
-           
+            string print2 = calc.Check(15, 5).ToString();
 
             Console.WriteLine(print);
-         
+            Console.WriteLine(print2);
+      
             Console.Read();
         }
     }
